@@ -81,6 +81,7 @@ ol{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 
  }
  .hero-images{
@@ -114,6 +115,7 @@ ol{
      background-color: white;
      display: flex;
      justify-content: space-between;
+     flex-wrap: wrap;
 
 }
 .project-titel{
@@ -154,6 +156,7 @@ ol{
     display: flex;
     justify-content: space-between;
     height: 70px;
+    flex-wrap: wrap;
 }
 
 .menu{
@@ -190,6 +193,7 @@ ol{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .footer img{
@@ -239,6 +243,7 @@ ol{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .social{
@@ -321,7 +326,7 @@ ol{
 
 
 .container{
-    width: 1200px;
+       max-width 1200px;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -329,9 +334,23 @@ ol{
     height: inherit;
     flex-wrap: inherit;
 }
+ 
+/* desktop first que empiece desde el mas grande.
+estas son medidas estandares. */
 
-/* @media screen and (max-width: 768px) {
-    body {
-        border: 10px solid green;
-    }
-} */
+
+ @media screen and (max-width: 1024px) {
+}
+
+
+@media screen and (max-width: 768px) {
+}
+
+
+@media screen and (max-width: 480px){
+}
+
+
+@media screen and (max-width: 320){
+}
+
