@@ -326,7 +326,9 @@ ol{
 
 
 .container{
-       max-width 1200px;
+    max-width: 1200px;
+  /*   width: 100%; */
+    flex: 1;
     margin: 0 auto;
     display: inherit;
     justify-content: inherit;
@@ -343,7 +345,23 @@ estas son medidas estandares. */
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
+    }
+    .header Ul {
+        display: block;
+    }
+    .header ul li {
+        height: 50px;
+    }
+    .header a {
+        justify-content: center;
+    }
+    .header .logo {
+        text-align: center;
+    }
 }
 
 
@@ -351,6 +369,6 @@ estas son medidas estandares. */
 }
 
 
-@media screen and (max-width: 320){
+@media screen and (max-width: 320px){
 }
 
