@@ -141,11 +141,16 @@ ol{
 
 
  .project-details{
-     width: 500px;
+     width: auto;
  }
 
  .project-imageContainer{
-     width: 500px;
+     width: auto;
+ }
+
+ .project-imageContainer img {
+     max-width: 100%;
+
  }
 
 
@@ -350,7 +355,7 @@ estas son medidas estandares. */
         display: block;
         height: auto;
     }
-    .header Ul {
+    .header ul {
         display: block;
     }
     .header ul li {
@@ -361,6 +366,42 @@ estas son medidas estandares. */
     }
     .header .logo {
         text-align: center;
+    }
+    .project {
+         display: block;
+    }
+    .project-imageContainer {
+        width: auto;
+        text-align: center;
+    }
+    .project-details {
+        width: auto;
+        font-size: 12px;
+    }
+
+
+    .project-course,
+    .project-date,
+    .project-url{
+        margin: .4em 0;
+    }
+
+   .project-titel {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+   }
+    .project-course {
+            font-size: .7em;
+        }
+    }
+    .project-date{
+        font-size: 1em;
+    }
+    .project-url{
+        font-size: 1em;
+    }
+    .project-descripion{
+        font-size: .8em; 
     }
 }
 
