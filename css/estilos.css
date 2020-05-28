@@ -350,10 +350,29 @@ estas son medidas estandares. */
      .container {
          padding: 0 1em;
      }
+     .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 2em;
+    }
+    .hero-images {
+        position: absolute;
+        z-index: 1;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    h1 {
+        font-size: 2em;
+        z-index: 2;
 }
 
 
 @media screen and (max-width: 767px) {
+
     .header {
         display: block;
         height: auto;
@@ -409,6 +428,9 @@ estas son medidas estandares. */
     
     
     @media screen and (max-width: 480px){
+        h1 {
+            font-size: 1em;
+        }
         .event {
            width: auto;
            flex-shrink: initial;
