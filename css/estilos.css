@@ -149,7 +149,7 @@ ol{
  }
 
  .project-imageContainer img {
-     max-width: 100%;
+     max-width: 100px;
 
  }
 
@@ -368,6 +368,15 @@ estas son medidas estandares. */
     h1 {
         font-size: 2em;
         z-index: 2;
+    }
+ } 
+
+
+.html-videos {
+   width: 100%; 
+   height: auto;
+   text-align: center;
+  /*   max-width: 100%; */
 }
 
 
@@ -401,7 +410,6 @@ estas son medidas estandares. */
         font-size: 12px;
     }
 
-
     .project-course,
     .project-date,
     .project-url{
@@ -425,11 +433,12 @@ estas son medidas estandares. */
     .project-descripion{
         font-size: .8em; 
     }
+}
     
     
     @media screen and (max-width: 480px){
         h1 {
-            font-size: 1em;
+            font-size: 1.5em;
         }
         .event {
            width: auto;
@@ -465,5 +474,12 @@ estas son medidas estandares. */
 
 
 @media screen and (max-width: 320px){
+    h1 {
+        font-size: 1.2em;
+
+    }
+    .hero {
+        padding: 2em 1em;
+    }
 }
 
